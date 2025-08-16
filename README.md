@@ -6,3 +6,4 @@
 -node -v
 
 -cd cd E:\TCC\mentally node server.js
+pelo git bash: cd /e/TCC/mentally
