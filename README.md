@@ -9,3 +9,7 @@
 pelo git bash: cd /e/TCC/mentally
 
 -ls verificar o root
+
+- para pasta servidor 
+cd servidor
+node server.js
