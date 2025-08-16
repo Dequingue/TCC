@@ -5,4 +5,4 @@
 
 -node -v
 
--cd C:\Users\SeuUsuario\projeto-mentally node server.js
+-cd cd E:\TCC\mentally node server.js
