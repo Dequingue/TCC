@@ -13,3 +13,7 @@ pelo git bash: cd /e/TCC/mentally
 - para pasta servidor 
 cd servidor
 node server.js
+
+intlar o npm
+npm install
+npm start
