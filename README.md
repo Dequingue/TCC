@@ -5,7 +5,7 @@
 
 -node -v
 
--cd cd E:\TCC\mentally node server.js
+-exemplo cd cd E:\TCC\mentally node server.js
 pelo git bash: cd /e/TCC/mentally
 
 -ls verificar o root
