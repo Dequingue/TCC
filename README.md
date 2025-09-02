@@ -7,7 +7,7 @@
 
 -exemplo cd cd E:\TCC\mentally node server.js
 pelo git bash: cd /e/TCC/mentally
-
+cd mentally 
 -ls verificar o root
 
 - para pasta servidor 
