@@ -17,3 +17,12 @@ node server.js
 intlar o npm
 npm install
 npm start
+
+deixar automatico o npm:
+npm install --save-dev nodemon
+no package.jason: coloque
+"scripts": {
+  "start": "node servidor/server.js",
+  "dev": "nodemon servidor/server.js"
+}
+npm run dev
