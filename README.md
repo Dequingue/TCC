@@ -61,6 +61,8 @@ browserSync.init({
       fn: function (snippet, match) {
         return snippet + match;
       }
-    }
+    } 
   }
 });
+
+npm install --save-dev cross-env
