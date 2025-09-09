@@ -34,7 +34,7 @@ no package.jason: coloque
 
 npm run dev
 
-atualizar o front automatico
+-atualizar o front automatico
 npm install browser-sync --save-dev
 
 "scripts": {
