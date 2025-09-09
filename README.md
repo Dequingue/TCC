@@ -46,3 +46,21 @@ npm install browser-sync --save-dev
 npm install concurrently --save-dev
 
 npm run dev
+
+npm install bs-snippet-injector
+
+const browserSync = require('browser-sync').create();
+const snippetInjector = require('bs-snippet-injector');
+
+browserSync.init({
+  server: 'frontend',
+  files: 'frontend/**/*.*',
+  snippetOptions: {
+    rule: {
+      match: /<\/body>/i,
+      fn: function (snippet, match) {
+        return snippet + match;
+      }
+    }
+  }
+});
