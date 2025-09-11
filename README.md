@@ -65,5 +65,8 @@ browserSync.init({
   }
 });
 
+-pro front
 npm install --save-dev cross-env
+
+-cptografia
 npm install bcrypt
